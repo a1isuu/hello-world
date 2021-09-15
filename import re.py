@@ -2,15 +2,12 @@ import re
     
 def email():
     email = str(input("Insira o endereço de email: "))
-    match = re.search(r"^[\w\.\+\-]+\@[\w]+\.[a-z]{2,3}$", email)
+    tag = re.search(r"^[\w\.\+\-]+\@[\w]+\.[a-z]{2,3}$", email)
   
-    
-    
-    if match:
-        print("Email válidado: ", match.group())
-
+    if tag:
+        print("O email %s teve sua validade comprovada. " %email)
     else:
-        print("Email não é válido: ")
+        print("O email %s não é válido! " %email)
 
 email()
 
