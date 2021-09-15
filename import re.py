@@ -1,16 +1,16 @@
 import re
     
 def email():
-    email = str(input("enter the mail address::"))
+    email = str(input("Insira o endereço de email: "))
     match = re.search(r"^[\w\.\+\-]+\@[\w]+\.[a-z]{2,3}$", email)
   
     
     
     if match:
-        print("valid email :::", match.group())
+        print("Email válidado: ", match.group())
 
     else:
-        print("not valid:::")
+        print("Email não é válido: ")
 
 email()
 
