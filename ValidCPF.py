@@ -4,7 +4,7 @@ def NumerarCPF(): #numera o cpf
     for a in cpf:
         a= int(a)
         cpf_numerado.append(a)
-def quantidade():#tamanho do cpf
+def Tamanho():#tamanho do cpf
     if len(cpf)<11 or len(cpf)>11:
         return False
     else:
@@ -58,12 +58,12 @@ NumerarCPF()
 
 #print(cpf_numerado)
 
-quantidade()
+Tamanho()
 
 primeiro_digito()
 segundo_digito()
 
-if quantidade()==True and primeiro_digito()==True and segundo_digito()==True:
+if Tamanho()==True and primeiro_digito()==True and segundo_digito()==True:
     print('o Cpf é válido!')
 else:
     print('Cpf invalido')
