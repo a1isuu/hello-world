@@ -46,7 +46,7 @@ def segundo_digito():
         if acumulador2 == cpf_numerado[10]:
             return True
         else:
-           # print("False")
+            return False
 
 
 # Parte Amanda
@@ -67,3 +67,5 @@ if quantidade()==True and primeiro_digito()==True and segundo_digito()==True:
     print('o Cpf é válido!')
 else:
     print('Cpf invalido')
+
+  #https://youtu.be/6DG_tMiKrNI
