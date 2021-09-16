@@ -1,3 +1,4 @@
+#Alison, Baruc, Matthews
 import re
     
 def email():
@@ -12,6 +13,6 @@ def email():
 email()
 
 
-#acesso em 14/09/2021 14:24
+#acesso em 14/09/2021 14:24. (REGEX)
 #https://www.ti-enxame.com/pt/python/como-verificar-se-ha-um-endereco-de-email-valido/941744810/
 
