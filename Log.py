@@ -3,6 +3,7 @@ from datetime import datetime
 class Log: 
 
     def info(message):
+        #self.file.write("[" + horario + " INFO |" + message)
         datetime.now()
 
 
